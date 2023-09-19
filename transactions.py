@@ -168,8 +168,8 @@ for _, transaction in df_transactions.iterrows():
     transaction01["contactId"] = str(uuid.uuid4())
     transaction01["sourceCountry"]= sourceCountryCode
     transaction01["sourceCurrency"]= sourceCurrencyCode
-    transaction01["targetCurrency"]= targetCountryCode
-    transaction01["targetCountry"]= targetCurrencyCode
+    transaction01["targetCurrency"]= targetCurrencyCode
+    transaction01["targetCountry"]= targetCountryCode
     transaction01["userId"]= userId
     transaction01["accountBankNameSource"]= "Banco"
     transaction01["accountNumberSource"]= "999999999999"
